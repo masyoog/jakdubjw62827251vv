@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="223.051" height="70" viewBox="0 0 223.051 70">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.536" x2="1.076" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1081c5"/>
+      <stop offset="1" stop-color="#0cf"/>
+    </linearGradient>
+    <filter id="Path_2507" x="0" y="0" width="223.051" height="70" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1518" data-name="Group 1518" transform="translate(-130 -393)">
+    <g transform="matrix(1, 0, 0, 1, 130, 393)" filter="url(#Path_2507)">
+      <path id="Path_2507-2" data-name="Path 2507" d="M28.856,0H176.194c15.937,0,28.856,11.641,28.856,26s-12.919,26-28.856,26H28.856C12.919,52,0,40.359,0,26S12.919,0,28.856,0Z" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="CEK_FITUR" data-name="CEK FITUR" transform="translate(240 431)" fill="#fff" font-size="16" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-43.344" y="0">CEK FITUR</tspan></text>
+  </g>
+</svg>

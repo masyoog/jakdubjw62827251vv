@@ -1,0 +1,218 @@
+body {
+    max-width: 100%;
+}
+
+.uk-navbar-container { background-color: #ffffff !important; }
+
+.uk-navbar-nav>li>a {
+    font-weight: 600;
+    color: #333333;
+}
+
+.mybeb-title {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.nav-button {
+    min-height: initial !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border-radius: 30px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);    
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#sidenav li {
+    text-transform: capitalize;
+}
+
+#background1 {
+    background-image: url(../image/background1.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 200px;
+}
+
+#background2 {
+    background-image: url(../image/background2.svg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 200px;
+}
+#background3 {
+    background-image: url(../image/background3.png);
+
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+#background4 {
+    background-image: url(../image/background-net.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+}
+#background5 {
+    background-image: url(../image/rectangle-grey.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+}
+#background6 {
+    background-image: url(../image/background6.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100px;
+    min-width: 100px;
+}
+#background7 {
+    background-image: url(../image/very-big-rectangle.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+#home-sekilas{
+    font-size: 1.4rem;
+    font-weight: 600;  
+    color:#058cce;  
+}
+
+#ambil-rejeki{
+    font-size: 2rem;    
+    color:#404040;  
+}
+
+#huruf-kecil{
+    font-size:1.7rem;
+    color:#404040; 
+}
+
+#ambil-rejeki b{
+    font-weight: 900;  
+    color:#404040;
+}
+
+#paragraph {
+    font-size: 0.9rem;  
+    color:#1E2C34
+}
+
+#testimoni{
+    font-size: 1.6rem;  
+    color:#FFFFFF;
+}
+
+.uk-table.footer td {
+    padding: 0px 12px;
+    vertical-align: bottom;
+}
+
+.uk-section {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.uk-card-body {
+    padding: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+#logo { max-width: 160px; height: auto; }
+.nav-button {
+    top: 120px;
+    right: 15px;  
+}
+}
+
+.slider-div a.buttonl,.slider-div a.buttonr,.slider-div a.buttonl:focus,.slider-div a.buttonr:focus {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    color: #1081c5 !important;
+    transform: translateY(-50%) translateY(-37px) !important;
+}
+a.buttonl {
+    right:30px;
+    left: unset;
+}
+.slider-div{
+    padding-top:60px;
+    
+}
+.slider-div-t a.buttonl,.slider-div-t a.buttonr,.slider-div-t a.buttonl:focus,.slider-div-t a.buttonr:focus {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    color: #1081c5 !important;
+    transform: translateY(-50%) translateY(-90px) !important;
+    top: 51%;
+}
+.slider-div-t{
+    padding-top:60px;
+}
+
+.slider-div-s a.buttonl,.slider-div-s a.buttonr,.slider-div-s a.buttonl:focus,.slider-div-s a.buttonr:focus {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    color: #1081c5 !important;
+    transform: translateY(20%) translateY(-90px) !important;
+    top: 44%;
+}
+.slider-div-s{
+    padding-top:60px;
+}
+
+
+.slider-div-f a.buttonl,.slider-div-f a.buttonr,.slider-div-f a.buttonl:focus,.slider-div-f a.buttonr:focus {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    color: #1081c5 !important;
+    transform: translateY(-73%) translateY(-50px) !important;
+    top: 44%;
+}
+.slider-div-f{
+    padding-top:60px;
+}
+
+.karya {
+    padding: 23px 0px 0px 47px !important;
+}
+
+.no-margin {
+    margin:0px !important;
+}
+
+@media (min-width: 1120px){
+.uk-container {
+    padding-left: 80px;
+    padding-right: 40px;
+}
+}
+
+.navcolor{
+    color : #1081c5 !important;
+}
+
+.footer{
+    padding-Left: 10% !important; 
+}
